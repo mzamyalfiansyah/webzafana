@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.apa{
+    color: rgb(91, 103, 139);
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 25px;
+    
+}
+
+
+
+.container{
+    position: fixed;
+    width: 100%;
+   
+}
+
+.header{
+    background-color: rgb(43, 56, 100);
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    width: 3%;
+    height: 3%;
+    margin-right: 20px;
+    margin-left: 2%;
+}
+
+.nama{
+    font-family: sans-serif;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    cursor: default;
+}
+
+.firstname{
+    color: white;
+}
+
+.lastname{
+    color: rgb(190, 36, 36);
+}
+
+.menu-container{
+    margin-top: 5px;
+}
+
+
+.search{
+    display: flex;
+    width: 500px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+.search input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+
+.tombol{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 60px;
+    font-weight: bold;
+    color: rgb(43, 56, 100);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tombol:hover, .tombol:focus {
+    background-color: rgb(209, 209, 209);
+    outline: none;
+    cursor:pointer;
+    transition-duration: 0.3s;
+}
+
+.tombol img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+
+.isi{
+    background-color: rgb(43, 56, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.isi :hover{
+    color: brown;
+    transition-duration: 0.3s;
+}
+
+.garis{
+    height: 20px;
+    width: 3px;
+    background-color: rgb(17, 17, 56);
+    justify-content: center;
+}
+
+.gambar {
+
+    width: 96%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.rekomendasi{
+    background-color:  rgb(43, 56, 100);
+    margin: auto;
+    width: 94.5%;
+    padding: 10px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 15px;
+    cursor: default;
+}
+
+    
+.bungkus{
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.bungkus :hover{
+    background-color: rgb(182, 190, 219);
+    outline: 0;
+    cursor:pointer;
+    transition-duration: 0.3s;
+}
+
+.bg{
+    display: flex;
+    
+}
+.bg:hover{
+    background: none;
+}
+
+.tas {
+    border: 3px solid rgb(43, 56, 100);
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+    font-family: arial;
+    margin-left: 50px;
+}
+.tas img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.sepatu{
+    border: 3px solid rgb(43, 56, 100);
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+    font-family: arial;
+    margin-left: 50px;
+}
+.sepatu img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.beli{
+    
+    color: white;
+    text-decoration: none;
+    background-color: brown;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.beli:hover, .beli:focus {
+    background-color: rgb(119, 31, 31);
+    outline: 0;
+    cursor:pointer;
+    transition-duration: 0.3s;
+}
+
+.atas{
+    padding: 65px;
+}
+
+.bawah{
+    padding: 20%;
+}
+
+.container-icon{
+    background-color:  rgb(136, 146, 177);
+    padding: 10px;
+    width: 94.5%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    font-family: arial;
+   
+}
+
+.container-icon2{
+    display: flex;
+     align-items: center;
+    
+}
+
+.bank{
+    margin-left:  20%;
+    border: 1px;
+}
+
+.bank h4, .bank{
+    text-align: center;
+    
+}
+
+.bank :hover{
+    cursor: pointer;
+}
+
+.bayar{
+    margin-left:  30%;
+}
+
+.bayar h4, .bayar{
+    text-align: center;
+    
+}
+
+.bayar :hover{
+    cursor: pointer;
+}
+
+.gratis{
+    margin-left:  30%;
+}
+
+.gratis h4{
+    text-align: center;
+
+}
+
+.gratis :hover{
+    cursor: pointer;
+}
+
+.pulsa{
+    margin-left:  30%;
+}
+
+
+.pulsa h4{
+    text-align: center;
+    
+}
+
+
+.pulsa :hover{
+    cursor: pointer;
+}
+
+
+.diskon{
+    margin-left:  30%;
+}
+
+
+.diskon h4{
+    text-align: center;
+    
+}
+
+
+.diskon :hover{
+  
+    cursor: pointer;
+}
+
+.icon-icon{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    margin-left: 13%;
+}
+
+
+.navbar .toggler-navbar {
+    margin-right: 15px;
+    display: flex;
+}
+.sidebar {
+    position: fixed;
+    margin-left: 78%;
+    width: 300px;
+    height: 100%;
+    background: rgb(29, 39, 73);
+    opacity: 80%;
+    text-align: left;
+    font-size: 20px;
+    transform: rotate3d( 0, 1, 0, 90deg);
+    transform-origin: right center;
+    transition: .5s;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sidebar.open {
+    transform: rotate3d(0, 0, 1, 0deg);
+}
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar li:hover,
+.sidebar li.active {
+    background: rgb(117, 27, 27);
+}
+
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block
+    
+}
+.hamburger-menu {
+    width: 20px;
+    height: 30px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.hamburger-menu span:nth-child(1) {
+    top: 2.5px;
+}
+
+.hamburger-menu span:nth-child(2) {
+    top: 11px;
+}
+
+.hamburger-menu span:nth-child(3) {
+    top: 21px;
+}
+
+.hamburger-menu.open span:nth-child(1) {
+    top: 15px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.hamburger-menu.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.hamburger-menu.open span:nth-child(3) {
+    top: 14px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+
+
+
+
+
+.zafana{
+    background-color: rgb(15, 17, 41);
+    font-family: sans-serif;
+    padding: 20px;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(113, 114, 172);
+}
+
+
+.depan{
+    color: white;
+}
+
+.belakang{
+    color: brown;
+}
+
+.footer-bawah-isi{
+    background-color: rgb(15, 17, 41);
+    padding-bottom: 2%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-isi{
+    width: 200px;
+    margin: auto;
+    text-align: left;
+}
+
+.footer-isi h5{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer-isi a{
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-isi a:hover{
+    color: brown;
+}
+
+
+
+.pembayaran-isi{
+    background-color: rgb(15, 17, 41);
+    padding: 50px;
+    
+}
+
+.pembayaran{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pembayaran-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pembayaran-2 img{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px
+}
+
+.pembayaran-h5{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pembayaran img{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.copyright{
+    background-color: rgb(4, 6, 19);
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+@media ( max-width: 400px ){
+    .bungkus{
+        flex-direction: column;
+    }
+    .tas, .sepatu{      
+        width: 25%;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+    .tas img{
+        width: 99%;
+        height: 99%;
+        margin: auto;
+    }
+
+    .sepatu img{
+        width: 99%;
+        height: 99%;
+        margin: auto;
+        
+    }
+
+    .tas h4, .tas p, .sepatu h4, .sepatu p{
+        font-size: 10px;
+    }
+    .tas button, .sepatu button{
+        width: 99%;
+        height: 20px;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .tombol{
+        
+    }
+
+    .rekomendasi{
+        margin: auto;
+        margin-top: 10px;
+        width: 94.5%;
+        padding: 5px;
+    }
+    .rekomendasi h3{
+        font-size: 12px;
+    }
+
+    .isi{
+        padding: 10px;
+    }
+
+    .isi a{
+        font-size: 10px;
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .header ul{
+        font-size: 15px;
+    }
+
+    .header img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .search{
+        display: flex;
+        width: 40%;
+        height: 20px;
+        margin-left: 3%;
+        background-color: white;
+        border-radius: 5px;
+        
+    }
+
+    .search input{
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        padding-left: 10px;
+        font-size: 10px;
+        height: auto;
+        
+    }
+
+    .tombol{
+        width: 30px;
+        height: auto;
+    }
+    .tombol img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .navbar{
+        margin-left: 10px;        
+    }
+
+    .gambar{
+        margin-bottom: 10px;
+    }
+
+    .atas{
+        padding: 45px;
+    }
+
+    .container-icon{
+        width: 94.5%;
+        padding: 2px;
+        margin: auto;
+        
+    }
+
+    .container-icon2{
+        margin-left: 5px;
+    }
+
+    .bank{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .bank img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .bayar{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .bayar img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .gratis{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .gratis img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .pulsa{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .pulsa img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .diskon{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .diskon img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .bg{
+        display: flex;
+    }
+
+    .bg:hover{
+        background: none;
+    }
+
+
+
+
+    .zafana{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+
+
+ 
+
+    .footer-bawah-isi{
+        padding: 10px;
+    }
+
+    .footer-isi{
+        width: auto;
+        margin: auto;
+        text-align: left;
+    }
+
+    .footer-isi h5{
+        font-size: 8px;
+        
+    }
+
+    .footer-isi a{
+        font-size: 7px;
+        
+    }
+
+    .pembayaran-isi{
+        padding: 20px;
+    }
+
+    .pembayaran-h5 h5{
+        font-size: 8px;
+    }
+
+    .pembayaran img, .pembayaran-2 img{
+        height: 10px;
+        width: 30px;
+        border-radius: 2px;
+    }
+
+    .copyright{
+        padding: 10px;
+    }
+
+    .copyright h4{
+        font-size: 8px;
+    }
+}
